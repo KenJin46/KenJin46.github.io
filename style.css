@@ -1,0 +1,38 @@
+/*
+Error: Invalid CSS after "$baseColor": expected selector or at-rule, was ":#fdfcf6;"
+        on line 7 of style.scss
+
+2: @import url(https://fonts.googleapis.com/css?family=Abel);
+3: //font-family
+4: $baseFontFamily:"游ゴシック",yuGothic,"メイリオ",Verdana,"Hirogino Kaku Gothic ProN",
+5: 
+6: //colors
+7: $baseColor:#fdfcf6;
+8: $subColor:#bea300;
+9: $keyColor:#14c0c9;
+10: $fontColor:#4c4c4c;
+11: 
+12: /*Base
+
+Backtrace:
+style.scss:7
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:1207:in `expected'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:1137:in `expected'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:42:in `parse'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/engine.rb:409:in `_to_tree'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/engine.rb:384:in `_render_with_sourcemap'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/engine.rb:301:in `render_with_sourcemap'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/exec/sass_scss.rb:391:in `run'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/exec/base.rb:52:in `parse'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/exec/base.rb:19:in `parse!'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/bin/sass:13:in `<top (required)>'
+/usr/local/rvm/gems/ruby-2.4.1/bin/sass:23:in `load'
+/usr/local/rvm/gems/ruby-2.4.1/bin/sass:23:in `<main>'
+/usr/local/rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:15:in `eval'
+/usr/local/rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"$baseColor\": expected selector or at-rule, was \":#fdfcf6;\"\A         on line 7 of style.scss\A \A 2: @import url(https://fonts.googleapis.com/css?family=Abel);\A 3: //font-family\A 4: $baseFontFamily:\"游ゴシック\",yuGothic,\"メイリオ\",Verdana,\"Hirogino Kaku Gothic ProN\",\A 5: \A 6: //colors\A 7: $baseColor:#fdfcf6;\A 8: $subColor:#bea300;\A 9: $keyColor:#14c0c9;\A 10: $fontColor:#4c4c4c;\A 11: \A 12: /*Base"; }
